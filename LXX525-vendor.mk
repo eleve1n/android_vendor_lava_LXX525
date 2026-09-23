@@ -312,8 +312,6 @@ PRODUCT_COPY_FILES += \
     vendor/lava/LXX525/etc/init/hw/meta_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/meta_init.rc \
     vendor/lava/LXX525/etc/init/hw/init_conninfra.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init_conninfra.rc \
     vendor/lava/LXX525/etc/init/hw/init.pstore.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.pstore.rc \
-    vendor/lava/LXX525/etc/vintf/manifest.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest.xml \
-    vendor/lava/LXX525/etc/vintf/compatibility_matrix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/compatibility_matrix.xml \
     vendor/lava/LXX525/etc/vintf/manifest/arm.mali.platform-mediatek.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/arm.mali.platform-mediatek.xml \
     vendor/lava/LXX525/etc/vintf/manifest/power-mediatek.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/power-mediatek.xml \
     vendor/lava/LXX525/etc/vintf/manifest/thermal-mediatek.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/thermal-mediatek.xml \
