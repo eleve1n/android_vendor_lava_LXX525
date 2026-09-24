@@ -449,8 +449,6 @@ PRODUCT_COPY_FILES += \
     vendor/lava/LXX525/system_ext/etc/init/hw/vendor_init_as_system.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/hw/vendor_init_as_system.rc \
     vendor/lava/LXX525/system_ext/etc/init/hw/meta_init.system.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/hw/meta_init.system.rc \
     vendor/lava/LXX525/system_ext/etc/init/hw/init.usb.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/hw/init.usb.rc \
-    vendor/lava/LXX525/system_ext/etc/security/fsverity/BuildManifestSystemExt.apk:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/security/fsverity/BuildManifestSystemExt.apk \
-    vendor/lava/LXX525/system_ext/etc/security/fsverity/BuildManifestSystemExt.apk.idsig:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/security/fsverity/BuildManifestSystemExt.apk.idsig \
     vendor/lava/LXX525/system_ext/etc/vintf/manifest.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/vintf/manifest.xml \
     vendor/lava/LXX525/system_ext/etc/vintf/manifest/android.hidl.allocator@1.0-service.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/vintf/manifest/android.hidl.allocator@1.0-service.xml \
     vendor/lava/LXX525/system_ext/etc/vintf/manifest/mtk-mbrainj-default.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/vintf/manifest/mtk-mbrainj-default.xml \
