@@ -1,0 +1,8 @@
+on late-fs
+    chmod 0666 /proc/tiktap_buf
+    chown system system /proc/tiktap_buf
+
+service vendor.vibrator-default /vendor/bin/hw/android.hardware.vibrator-service.mediatek
+    class hal
+    user system
+    group system
