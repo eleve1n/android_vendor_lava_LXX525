@@ -412,14 +412,12 @@ PRODUCT_COPY_FILES += \
     vendor/lava/LXX525/proprietary/system_ext/etc/aconfig_flags.pb:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/aconfig_flags.pb \
     vendor/lava/LXX525/proprietary/system_ext/etc/aee-commit:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/aee-commit \
     vendor/lava/LXX525/proprietary/system_ext/etc/aee-config:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/aee-config \
-    vendor/lava/LXX525/proprietary/system_ext/etc/audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_configuration.xml \
     vendor/lava/LXX525/proprietary/system_ext/etc/audio_policy_configuration_bluetooth_legacy_hal.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_configuration_bluetooth_legacy_hal.xml \
     vendor/lava/LXX525/proprietary/system_ext/etc/audio_policy_configuration_stub.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_configuration_stub.xml \
     vendor/lava/LXX525/proprietary/system_ext/etc/audio_policy_engine_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_engine_configuration.xml \
     vendor/lava/LXX525/proprietary/system_ext/etc/audio_policy_engine_default_stream_volumes.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_engine_default_stream_volumes.xml \
     vendor/lava/LXX525/proprietary/system_ext/etc/audio_policy_engine_product_strategies.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_engine_product_strategies.xml \
     vendor/lava/LXX525/proprietary/system_ext/etc/audio_policy_engine_stream_volumes.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_engine_stream_volumes.xml \
-    vendor/lava/LXX525/proprietary/system_ext/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_volumes.xml \
     vendor/lava/LXX525/proprietary/system_ext/etc/bluetooth_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/bluetooth_audio_policy_configuration.xml \
     vendor/lava/LXX525/proprietary/system_ext/etc/bstFaceUnlock.cfg:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/bstFaceUnlock.cfg \
     vendor/lava/LXX525/proprietary/system_ext/etc/bst_filter_config.cfg:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/bst_filter_config.cfg \
@@ -427,7 +425,6 @@ PRODUCT_COPY_FILES += \
     vendor/lava/LXX525/proprietary/system_ext/etc/bstai_aidoc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/bstai_aidoc \
     vendor/lava/LXX525/proprietary/system_ext/etc/bstaicorner_aidoc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/bstaicorner_aidoc \
     vendor/lava/LXX525/proprietary/system_ext/etc/bstbeauty.cfg:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/bstbeauty.cfg \
-    vendor/lava/LXX525/proprietary/system_ext/etc/build.prop:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/build.prop \
     vendor/lava/LXX525/proprietary/system_ext/etc/build_flags.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/build_flags.json \
     vendor/lava/LXX525/proprietary/system_ext/etc/custom.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/custom.conf \
     vendor/lava/LXX525/proprietary/system_ext/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/default_volume_tables.xml \
@@ -444,7 +441,6 @@ PRODUCT_COPY_FILES += \
     vendor/lava/LXX525/proprietary/system_ext/etc/init/consyslogger.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/consyslogger.rc \
     vendor/lava/LXX525/proprietary/system_ext/etc/init/emdlogger.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/emdlogger.rc \
     vendor/lava/LXX525/proprietary/system_ext/etc/init/enableswap.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/enableswap.rc \
-    vendor/lava/LXX525/proprietary/system_ext/etc/init/hw/init.aee.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/hw/init.aee.rc \
     vendor/lava/LXX525/proprietary/system_ext/etc/init/hw/init.usb.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/hw/init.usb.rc \
     vendor/lava/LXX525/proprietary/system_ext/etc/init/hw/meta_init.system.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/hw/meta_init.system.rc \
     vendor/lava/LXX525/proprietary/system_ext/etc/init/hw/vendor_init_as_system.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/hw/vendor_init_as_system.rc \
@@ -505,13 +501,8 @@ PRODUCT_COPY_FILES += \
     vendor/lava/LXX525/proprietary/system_ext/etc/sysconfig/com.mediatek.ims.config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/com.mediatek.ims.config.xml \
     vendor/lava/LXX525/proprietary/system_ext/etc/sysconfig/initial-package-stopped-states-DebugLoggerUI.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/initial-package-stopped-states-DebugLoggerUI.xml \
     vendor/lava/LXX525/proprietary/system_ext/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/usb_audio_policy_configuration.xml \
-    vendor/lava/LXX525/proprietary/system_ext/etc/vintf/manifest.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/vintf/manifest.xml \
     vendor/lava/LXX525/proprietary/system_ext/etc/wmshell.protolog.json.gz:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/wmshell.protolog.json.gz \
-    vendor/lava/LXX525/proprietary/system_ext/etc/wmshell.protolog.pb:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/wmshell.protolog.pb \
-    vendor/lava/LXX525/proprietary/vendor_dlkm/etc/NOTICE.xml.gz:$(TARGET_COPY_OUT_VENDOR_DLKM)/etc/NOTICE.xml.gz \
-    vendor/lava/LXX525/proprietary/vendor_dlkm/etc/build.prop:$(TARGET_COPY_OUT_VENDOR_DLKM)/etc/build.prop \
-    vendor/lava/LXX525/proprietary/vendor_dlkm/etc/fs_config_dirs:$(TARGET_COPY_OUT_VENDOR_DLKM)/etc/fs_config_dirs \
-    vendor/lava/LXX525/proprietary/vendor_dlkm/etc/fs_config_files:$(TARGET_COPY_OUT_VENDOR_DLKM)/etc/fs_config_files
+    vendor/lava/LXX525/proprietary/system_ext/etc/wmshell.protolog.pb:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/wmshell.protolog.pb
 
 PRODUCT_PACKAGES += \
     APUWareApusysAidlServer \
@@ -638,7 +629,6 @@ PRODUCT_PACKAGES += \
     libMEOW_gift \
     libMEOW_qt \
     libMEOW_trace \
-    libGLES_mali \
     framework-permission-aidl-cpp \
     android.hardware.audio.effect@6.0-impl \
     android.hardware.audio.effect@7.0-impl \
@@ -671,10 +661,6 @@ PRODUCT_PACKAGES += \
     hwcomposer.mtk_common \
     local_time.default \
     mapper.mediatek \
-    android.hardware.camera.provider@2.6-impl-mediatek \
-    android.hardware.graphics.allocator-V2-mediatek \
-    android.hardware.graphics.mapper@4.0-impl-mediatek \
-    mapper.mediatek \
     vendor.mediatek.hardware.camera.atms@1.0-impl \
     vendor.mediatek.hardware.camera.bgservice@1.1-impl \
     vendor.mediatek.hardware.camera.isphal@1.1-impl \
@@ -691,20 +677,15 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.audio-impl \
     vendor.mediatek.hardware.bluetooth.audio@2.1-impl \
     vendor.mediatek.hardware.bluetooth.audio@2.2-impl \
-    vendor.mediatek.hardware.camera.atms@1.0-impl \
     vendor.mediatek.hardware.camera.atms_aidl@1.0-impl \
-    vendor.mediatek.hardware.camera.bgservice@1.1-impl \
     vendor.mediatek.hardware.camera.bgservice_aidl@1.0-impl \
-    vendor.mediatek.hardware.camera.isphal@1.1-impl \
     vendor.mediatek.hardware.camera.isphal_aidl@1.0-impl \
     vendor.mediatek.hardware.gnss-impl \
     vendor.mediatek.hardware.gnss.batching-impl \
     vendor.mediatek.hardware.mtkpower-aidl-impl \
     vendor.mediatek.hardware.nvram-impl \
-    vendor.mediatek.hardware.pq_aidl-impl \
     vendor.mediatek.hardware.videotelephony-impl \
     vibrator.default \
-    vulkan.mali \
     lib3a.ae.pipe \
     lib3a.ae \
     lib3a.ae.stat \
@@ -1445,372 +1426,6 @@ PRODUCT_PACKAGES += \
     libclearkeycasplugin \
     libdrmclearkeyplugin \
     libmockdrmcryptoplugin \
-    arm.graphics-V4-ndk \
-    arm.mali.platform-V2-ndk \
-    lib3a.ae \
-    lib3a.ae.stat \
-    lib3a.af.assist.models1d \
-    lib3a.af.assist.models2d \
-    lib3a.af.assist \
-    lib3a.af.assist.utils \
-    lib3a.af.core \
-    lib3a.af \
-    lib3a.aishutter \
-    lib3a.alsflicker \
-    lib3a.awb.core \
-    lib3a.awbsync \
-    lib3a.cculog \
-    lib3a.custom.ae.flow \
-    lib3a.custom.ae \
-    lib3a.custom.af.flow \
-    lib3a.custom.awb.flow \
-    lib3a.custom.stt.flow \
-    lib3a.flash \
-    lib3a.flicker \
-    lib3a.log \
-    lib3a.sensors.color \
-    lib3a.sensors.flicker \
-    lib3a.stat \
-    libAIODcore \
-    libAIOTcore \
-    libAITrackingAFMgr \
-    libDBAccessor_ISP \
-    libDR \
-    libMtkMediaController \
-    libMtkMediaController_SAL \
-    libSonyIMX519PdafWrapper \
-    lib_bsscore \
-    libaaa_feature \
-    libaaa_ltm \
-    libaaa_ltmx \
-    libaaa_tnc \
-    libaaa_toneutil \
-    libaal_cust_func \
-    libaalservice \
-    libacdk \
-    libaiawb_fs \
-    libaiawb_moon \
-    libaiawb_moon_model \
-    libaiawb_p1ggm \
-    libaiawb_sun \
-    libaibc_tuning \
-    libaibc_tuning_p2 \
-    libaibc_tuning_p3 \
-    libaibc_tuning_p4 \
-    libaicapturecore \
-    libaidepth_tuning \
-    libaiseg_cache \
-    libaiseg_model \
-    libaiseg_p1ggm \
-    libaiseg_sun \
-    libaiselector \
-    libalgo.aosp.log \
-    libapiwrapper \
-    libapudcutils \
-    libarm_egl_properties_sysprop \
-    libarm_gralloc_properties_sysprop \
-    libarm_mali_config_sysprops \
-    libcam.3a_isp.utils \
-    libcam.afmgr \
-    libcam.chdr \
-    libcam.feature_utils \
-    libcam.fw_me_tcy \
-    libcam.hal3a.3aProvider \
-    libcam.hal3a.afassitmgr \
-    libcam.hal3a.cctsvr.v4l2 \
-    libcam.hal3a.ctrl \
-    libcam.hal3a.custom \
-    libcam.hal3a.guard \
-    libcam.hal3a.ircutdrv \
-    libcam.hal3a.lensdrv \
-    libcam.hal3a.log \
-    libcam.hal3a.lscMgrApi \
-    libcam.hal3a.oisdrv \
-    libcam.hal3a.ozoomdrv \
-    libcam.hal3a.pdstatmgr \
-    libcam.hal3a.policy \
-    libcam.hal3a \
-    libcam.hal3a.tofdrv \
-    libcam.hal3a.utils \
-    libcam.hal3a.v3.ae.v4l2 \
-    libcam.hal3a.v3.ai3a_v4l2 \
-    libcam.hal3a.v3.awb_v4l2 \
-    libcam.hal3a.v3.dng \
-    libcam.hal3a.v3.flash.v4l2 \
-    libcam.hal3a.v3.flicker.v4l2 \
-    libcam.hal3a.v3.ir.v4l2 \
-    libcam.hal3a.v3.lsctbl.v4l2 \
-    libcam.hal3a.v3.nvram.v4l2 \
-    libcam.hal3a.v3.sensor.v4l2 \
-    libcam.hal3a.v3.strobe \
-    libcam.hal3a.v3.stt_v4l2 \
-    libcam.hal3a.v3.tone.mgr.v4l2 \
-    libcam.halisp.SwTopCtrlMgr \
-    libcam.halisp.TopCtrlMgr \
-    libcam.halisp.TuningDataProvider \
-    libcam.halisp.TuningDataProviderFactory \
-    libcam.halisp.imp.v4l2 \
-    libcam.halisp.plugin \
-    libcam.halisp.utils \
-    libcam.halisp.v4l2 \
-    libcam.halsensor.hwintegration \
-    libcam.halsensor \
-    libcam.isptuning.v4l2 \
-    libcam.peripheralcontroller \
-    libcam.sensor_mode_helper \
-    libcam.sensor_mode_helper_custom \
-    libcam.tuningcachemgr \
-    libcam.utils.sensorprovider \
-    libcam.vhdr \
-    libcam_ipc_hal3a_client \
-    libcam_ipc_nvbuf_client \
-    libcamalgo.BSSwrapper \
-    libcamalgo.InlineCompGyro \
-    libcamalgo.Mfbllwrapper \
-    libcamalgo.aibc \
-    libcamalgo.aibcwrapper \
-    libcamalgo.aics \
-    libcamalgo.ainr \
-    libcamalgo.ais2.bss \
-    libcamalgo.ais2.mfnr \
-    libcamalgo.ais2.mstm \
-    libcamalgo.ais2 \
-    libcamalgo.bss \
-    libcamalgo.c3d \
-    libcamalgo.cac \
-    libcamalgo.eis \
-    libcamalgo.fsc \
-    libcamalgo.fus \
-    libcamalgo.gyro \
-    libcamalgo.lmv \
-    libcamalgo.lsc \
-    libcamalgo.mcnr \
-    libcamalgo.mfnr \
-    libcamalgo.n3d \
-    libcamalgo.platform2 \
-    libcamalgo.rotate \
-    libcamalgo.tsfs \
-    libcamalgo.vaics \
-    libcamalgo.vaidepth \
-    libcamalgo.vsf \
-    libcamera.custom.af_assist_buf_mgr \
-    libcamera.custom.af_assist_buf_mgr_open \
-    libcamera.custom.af_assist_mgr \
-    libcamera.custom.af_assist_pdp \
-    libcamera.customae \
-    libcamera.customflk \
-    libcameracustom.camera.3a \
-    libcameracustom.camera.isp \
-    libcameracustom.camera.sensors \
-    libcameracustom.camera_calibration.core \
-    libcameracustom.camera_exif \
-    libcameracustom.cfg_setting.core \
-    libcameracustom.eis \
-    libcameracustom.flashlight \
-    libcameracustom.imgsensor.core \
-    libcameracustom.lens \
-    libcameracustom.plugin \
-    libcameracustom \
-    libcameracustom_camera_db_ext \
-    libccd \
-    libdpframework \
-    libeffecthal.base \
-    libfacerelight \
-    libfeature.aiseg \
-    libfeature.face \
-    libfeature.fwmvp \
-    libfeature.mcnr \
-    libfeature.stereo.platform \
-    libfeature.stereo.provider \
-    libfeature.vsdof.3a_info_provider \
-    libfeature.vsdof.fd_info_provider \
-    libfeature.vsdof.hal \
-    libfeature.vsdof.nvram_provider \
-    libfeature.vsdof.ot_info_provider \
-    libfeature_eis \
-    libfeature_fsc \
-    libfeature_vrp \
-    libfeatureiodrv_mem \
-    libfeaturepolicy_dbhandler \
-    libgpudataproducer \
-    libimgstream-custom \
-    libimgstream-drv \
-    libimgstream-guard \
-    libimgsys_adl \
-    libimgsys_cmt \
-    libimgsys_custom \
-    libimgsys_daemon \
-    libimgsys_dip \
-    libimgsys_drvcommon \
-    libimgsys_gce \
-    libimgsys_main \
-    libimgsys_me \
-    libimgsys_pqdip \
-    libimgsys_sensor \
-    libimgsys_system \
-    libimgsys_taskhandler \
-    libimgsys_tdrhal \
-    libimgsys_tile \
-    libimgsys_traw \
-    libimgsys_utils \
-    libimgsys_v4l2 \
-    libimgsys_wpe \
-    libispfeature_mtkcam.v4l2 \
-    libispinterpreter_mtkcam \
-    liblpnr \
-    libmdla_standalone \
-    libmdla_ut \
-    libmfllcore \
-    libmgr3a.adapt \
-    libmmagent \
-    libmml \
-    libmmlpqImpl \
-    libmnl \
-    libmtk_drvb \
-    libmtkcam.atmseventmgr \
-    libmtkcam.debugwrapper \
-    libmtkcam.eventcallback \
-    libmtkcam.featurepipe.capture \
-    libmtkcam.featurepipe.depthmap \
-    libmtkcam.featurepipe.p2g \
-    libmtkcam.featurepipe.streaming \
-    libmtkcam.featurepipe.vsdof.wrapper \
-    libmtkcam.logicalcaminfoprovider \
-    libmtkcam.logicalmodule \
-    libmtkcam.ndd.limit \
-    libmtkcam_aicolor \
-    libmtkcam_aie \
-    libmtkcam_android_zslprocessor \
-    libmtkcam_aov \
-    libmtkcam_aov_cust \
-    libmtkcam_aov_plat \
-    libmtkcam_aov_sys \
-    libmtkcam_buffer_flush \
-    libmtkcam_c2psperfctrl \
-    libmtkcam_ca \
-    libmtkcam_calibration_provider \
-    libmtkcam_camcontroller \
-    libmtkcam_camcoordinator \
-    libmtkcam_camctrl \
-    libmtkcam_camdeliver \
-    libmtkcam_camsys_sensor_utils \
-    libmtkcam_coredev \
-    libmtkcam_custom.calibration_convertor \
-    libmtkcam_custom.metadata \
-    libmtkcam_custom.policy \
-    libmtkcam_custom_sampleselector \
-    libmtkcam_custom_zsdhdrselector \
-    libmtkcam_custzone \
-    libmtkcam_debugutils \
-    libmtkcam_detectnode \
-    libmtkcam_devicemgr \
-    libmtkcam_diputils \
-    libmtkcam_dma_map \
-    libmtkcam_dpe_sp \
-    libmtkcam_exif \
-    libmtkcam_externalisploader \
-    libmtkcam_faceResultHandler \
-    libmtkcam_feature_utils \
-    libmtkcam_grallocutils \
-    libmtkcam_hal3a_provider \
-    libmtkcam_hal_aidl_common \
-    libmtkcam_hal_aidl_device \
-    libmtkcam_hal_aidl_provider \
-    libmtkcam_hal_aidl_utils \
-    libmtkcam_hal_android_app_cbadaptor \
-    libmtkcam_hal_android_common \
-    libmtkcam_hal_android_device \
-    libmtkcam_hal_android_provider \
-    libmtkcam_hal_android_utils \
-    libmtkcam_hal_aov \
-    libmtkcam_hal_core_app \
-    libmtkcam_hal_core_app_cbadaptor \
-    libmtkcam_hal_core_device \
-    libmtkcam_hal_core_devicesessionpolicy \
-    libmtkcam_hal_core_featurepolicy \
-    libmtkcam_hal_core_provider \
-    libmtkcam_hal_core_utils \
-    libmtkcam_hal_custom \
-    libmtkcam_hal_custom_provider \
-    libmtkcam_hal_hidl_common \
-    libmtkcam_hal_hidl_device \
-    libmtkcam_hal_hidl_provider \
-    libmtkcam_hal_hidl_utils \
-    libmtkcam_halisp_custom \
-    libmtkcam_hwnode.jpegnode \
-    libmtkcam_hwnode.p2 \
-    libmtkcam_hwnode \
-    libmtkcam_hwutils \
-    libmtkcam_hwutils_android \
-    libmtkcam_hwutils_poweronoffcontroller \
-    libmtkcam_imgbuf_v2 \
-    libmtkcam_ipc_core \
-    libmtkcam_ipc_wrapper_common_client \
-    libmtkcam_ipc_wrapper_common_server \
-    libmtkcam_ipc_wrapper_mtk_client \
-    libmtkcam_ipc_wrapper_mtk_server \
-    libmtkcam_jsonconvertor \
-    libmtkcam_jsondata \
-    libmtkcam_mapping_mgr \
-    libmtkcam_metaconv \
-    libmtkcam_metadata \
-    libmtkcam_metastore \
-    libmtkcam_modulefactory_custom \
-    libmtkcam_modulefactory_utils \
-    libmtkcam_modulehelper \
-    libmtkcam_p1node \
-    libmtkcam_packutils \
-    libmtkcam_perfctrl \
-    libmtkcam_pip \
-    libmtkcam_pipeline \
-    libmtkcam_pipeline_fbm \
-    libmtkcam_pipelinemodel_capture \
-    libmtkcam_pipelinemodel_session \
-    libmtkcam_pipelinemodel_utils \
-    libmtkcam_pipelinepolicy-security \
-    libmtkcam_pipelinepolicy-smvr \
-    libmtkcam_pipelinepolicy \
-    libmtkcam_pipelinepolicy_factory \
-    libmtkcam_pipemgr \
-    libmtkcam_postprocprovider \
-    libmtkcam_preprocnode \
-    libmtkcam_prerelease \
-    libmtkcam_proc \
-    libmtkcam_request_requlator \
-    libmtkcam_resourcedecision \
-    libmtkcam_resourcedecision_custom \
-    libmtkcam_salmgr \
-    libmtkcam_sensorcontrol \
-    libmtkcam_simager \
-    libmtkcam_smvr \
-    libmtkcam_stdutils \
-    libmtkcam_streamutils \
-    libmtkcam_synchelper \
-    libmtkcam_sysutils \
-    libmtkcam_taskmgr \
-    libmtkcam_thirdparty.core \
-    libmtkcam_thirdparty.customer \
-    libmtkcam_thirdparty.customzone \
-    libmtkcam_thirdparty.mtk \
-    libmtkcam_thirdparty \
-    libmtkcam_tuning_utils \
-    libmtkcam_ulog \
-    libmtkcam_zsl_customselector \
-    libmtkcm_ipc_dummy \
-    libmtkltm \
-    libneuralnetworks_sl_driver_mtk_prebuilt \
-    libneuron_adapter_mgvi \
-    libneuron_runtime.7 \
-    libneuron_runtime \
-    libneuron_wrapper \
-    libnir_neon_driver \
-    libnpgetfilepath \
-    libpda_usdriver \
-    libpq_cust_base \
-    libpq_sec \
-    libpqconfig \
-    libpqparamparser \
-    libvainr_model \
     mtk000_mipi_raw_IdxMgr \
     mtk000_mipi_raw_tuning \
     ov08c10_mipi_raw_IdxMgr \
@@ -1819,18 +1434,10 @@ PRODUCT_PACKAGES += \
     ov08d10wide_mipi_raw_tuning \
     ov50e40_mipi_raw_tuning \
     s5kjn1sub_mipi_raw_tuning \
-    mtk000_mipi_raw_IdxMgr \
-    mtk000_mipi_raw_tuning \
     mtk_lbs_service-impl \
     nwk_opt_imp \
-    ov08c10_mipi_raw_IdxMgr \
-    ov08c10_mipi_raw_tuning \
-    ov08d10wide_mipi_raw_IdxMgr \
-    ov08d10wide_mipi_raw_tuning \
     ov50e40_mipi_raw_IdxMgr \
-    ov50e40_mipi_raw_tuning \
     s5kjn1sub_mipi_raw_IdxMgr \
-    s5kjn1sub_mipi_raw_tuning \
     shared-file-region-aidl-cpp \
     libaudiopreprocessing \
     libaudiopreprocessing_mtk \
@@ -1976,7 +1583,6 @@ PRODUCT_PACKAGES += \
     libc++_shared \
     libccci_util_sys \
     libcmdl_ndk.mtk \
-    libcomposer_ext \
     libcompress \
     libcomutils \
     libcustom_jni \
@@ -2053,7 +1659,6 @@ PRODUCT_PACKAGES += \
     libmvpuop_mtk_cv.mtk \
     libmvpuop_mtk_nn.mtk \
     libnativecheck-jni \
-    libneuron_graph_delegate.mtk \
     libneuronusdk_adapter.mtk \
     libnir_neon_driver_ndk.mtk \
     libopencv_java4 \
@@ -2076,11 +1681,9 @@ PRODUCT_PACKAGES += \
     libtensorflowlite24 \
     libterservice \
     libtflite_mtk.mtk \
-    libtflite_mtk \
     libthroughputmode \
     libtouch_ll \
     libtouch_ll_share \
-    libudf \
     libui_ext \
     libvcodec_cap \
     libvcodec_capenc \
@@ -2109,50 +1712,25 @@ PRODUCT_PACKAGES += \
     libvsync_hint \
     libvt_avsync \
     vendor.mediatek.framework.mtksf_ext-V4-ndk \
-    vendor.mediatek.hardware.aee-V1-ndk \
-    vendor.mediatek.hardware.aee@1.0 \
-    vendor.mediatek.hardware.aee@1.1 \
     vendor.mediatek.hardware.apuware.apusys-V5-ndk \
     vendor.mediatek.hardware.apuware.apusys@1.0 \
     vendor.mediatek.hardware.apuware.apusys@2.0 \
     vendor.mediatek.hardware.apuware.apusys@2.1 \
     vendor.mediatek.hardware.apuware.hmp@1.0 \
-    vendor.mediatek.hardware.apuware.utils-V1-ndk \
     vendor.mediatek.hardware.apuware.utils@1.0 \
-    vendor.mediatek.hardware.apuware.utils@2.0 \
     vendor.mediatek.hardware.apuware.xrp-V1-ndk \
     vendor.mediatek.hardware.apuware.xrp@1.0 \
     vendor.mediatek.hardware.apuware.xrp@2.0 \
-    vendor.mediatek.hardware.audio-V1-ndk \
-    vendor.mediatek.hardware.audio@7.1 \
-    vendor.mediatek.hardware.audio@8.1 \
-    vendor.mediatek.hardware.composer_ext-V1-ndk \
-    vendor.mediatek.hardware.composer_ext@1.0 \
     vendor.mediatek.hardware.gpuserv-V2-ndk \
-    vendor.mediatek.hardware.lbs@1.0 \
-    vendor.mediatek.hardware.log-V1-ndk \
     vendor.mediatek.hardware.log@1.0 \
     vendor.mediatek.hardware.mbrain-V2-ndk \
-    vendor.mediatek.hardware.mms@1.0 \
-    vendor.mediatek.hardware.mms@1.1 \
-    vendor.mediatek.hardware.mms@1.2 \
-    vendor.mediatek.hardware.mms@1.3 \
     vendor.mediatek.hardware.mtkpower-V2-ndk \
-    vendor.mediatek.hardware.mtkpower@1.0 \
-    vendor.mediatek.hardware.mtkpower@1.1 \
-    vendor.mediatek.hardware.mtkpower@1.2 \
-    vendor.mediatek.hardware.mtkpower_applist-V2-ndk \
-    vendor.mediatek.hardware.mtkradioex.rsu-V1-ndk \
-    vendor.mediatek.hardware.mtkradioex.se-V1-ndk \
-    vendor.mediatek.hardware.mtkradioex.sim-V1-ndk \
     vendor.mediatek.hardware.mtkradioex@3.0 \
     vendor.mediatek.hardware.pq@2.0 \
     vendor.mediatek.hardware.pq@2.1 \
     vendor.mediatek.hardware.pq@2.2 \
     vendor.mediatek.hardware.pq@2.3 \
-    vendor.mediatek.hardware.pq_aidl-V2-ndk \
     vendor.mediatek.hardware.touchll@1.0 \
-    vendor.mediatek.hardware.videotelephony-V1-ndk \
     vendor.mediatek.hardware.videotelephony@1.0 \
     CommandService.xml \
     android.hardware.bluetooth-service-mediatek.xml \
@@ -2237,167 +1815,21 @@ PRODUCT_PACKAGES += \
     cpio \
     ParameterDB.db \
     ParameterDB_ae.db \
-    ParameterDB_ae.db \
-    ParameterDB_af.db \
     ParameterDB_af.db \
     ParameterDB_awb.db \
-    ParameterDB_awb.db \
-    ParameterDB_awbsync.db \
     ParameterDB_awbsync.db \
     ParameterDB_feature.db \
-    ParameterDB_feature.db \
-    ParameterDB_flash.db \
     ParameterDB_flash.db \
     ParameterDB_flashcali.db \
-    ParameterDB_flashcali.db \
-    ParameterDB.db \
     sw_top_control_data.db \
     top_control_data.db \
     ParameterDB_pd.db \
-    ParameterDB_pd.db \
-    ParameterDB_pipeline.db \
     ParameterDB_pipeline.db \
     port_select.db \
-    sw_top_control_data.db \
     ParameterDB_tone.db \
-    ParameterDB_tone.db \
-    top_control_data.db \
     ISP_info.db \
     ISP_mapping.db \
     ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_info.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_info.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_mapping.db \
-    ISP_param.db \
-    ISP_info.db \
     cut \
     date \
     dconfig \
@@ -2480,9 +1912,6 @@ PRODUCT_PACKAGES += \
     arm.mali.platform-service.mediatek.mt6897 \
     camerahalserver \
     hostapd \
-    android.hardware.graphics.allocator-V2-service-mediatek.mt6897 \
-    arm.mali.platform-service.mediatek.mt6897 \
-    camerahalserver \
     mtkfusionrild \
     tetheroffloadservice \
     vendor.mediatek.hardware.aee@1.1-service \
@@ -2550,8 +1979,6 @@ PRODUCT_PACKAGES += \
     mountpoint \
     mrdump_tool \
     mt6660_calibration \
-    camsys_dump_tool \
-    jpegtool \
     mtk_agpsd \
     mtk_lbs_service \
     mtk_pkm_service \
