@@ -27055,14 +27055,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.wifi-service.xml",
-	owner: "lava",
-	src: "proprietary/etc/vintf/manifest/android.hardware.wifi-service.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-}
-
-prebuilt_etc_xml {
 	name: "android.hardware.wifi.hostapd.xml",
 	owner: "lava",
 	src: "proprietary/etc/vintf/manifest/android.hardware.wifi.hostapd.xml",
@@ -30473,23 +30465,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-	name: "android.hardware.wifi-service-lazy",
-	owner: "lava",
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/bin/hw/android.hardware.wifi-service-lazy"],
-			shared_libs: ["libbase", "libbinder_ndk", "libcutils", "liblog", "libnl", "libutils", "libwifi-hal", "libwifi-system-iface", "libxml2", "android.hardware.wifi-V1-ndk", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	strip: {
-		none: true,
-	},
-	prefer: true,
-	relative_install_path: "hw",
-}
-
-cc_prebuilt_binary {
 	name: "arm.mali.platform-service.mediatek.mt6897",
 	owner: "lava",
 	target: {
@@ -30836,23 +30811,6 @@ cc_prebuilt_binary {
 		android_arm64: {
 			srcs: ["proprietary/bin/hw/vtservice_aidl"],
 			shared_libs: ["libutils", "libcutils", "liblog", "libbase", "libfmq", "vendor.mediatek.hardware.videotelephony-V1-ndk", "vendor.mediatek.hardware.videotelephony-impl", "libbinder_ndk", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	strip: {
-		none: true,
-	},
-	prefer: true,
-	relative_install_path: "hw",
-}
-
-cc_prebuilt_binary {
-	name: "wpa_supplicant",
-	owner: "lava",
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/bin/hw/wpa_supplicant"],
-			shared_libs: ["libcutils", "liblog", "libcrypto", "libssl", "libkeystore-engine-wifi-hidl", "libnl", "android.hardware.wifi.supplicant-V2-ndk", "android.system.keystore2-V1-ndk", "libutils", "libbase", "libbinder_ndk", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",

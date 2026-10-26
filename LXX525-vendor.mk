@@ -168,7 +168,6 @@ PRODUCT_COPY_FILES += \
     vendor/lava/LXX525/proprietary/etc/init/android.hardware.tetheroffload-V1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.tetheroffload-V1-service.rc \
     vendor/lava/LXX525/proprietary/etc/init/android.hardware.usb-aidl-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb-aidl-service.mediatek.rc \
     vendor/lava/LXX525/proprietary/etc/init/android.hardware.usb.gadget-aidl-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb.gadget-aidl-service.mediatek.rc \
-    vendor/lava/LXX525/proprietary/etc/init/android.hardware.wifi-service-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi-service-lazy.rc \
     vendor/lava/LXX525/proprietary/etc/init/android.hardware.wifi.supplicant-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi.supplicant-service.rc \
     vendor/lava/LXX525/proprietary/etc/init/arm.mali.platform-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/arm.mali.platform-mediatek.rc \
     vendor/lava/LXX525/proprietary/etc/init/atcid.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atcid.rc \
@@ -312,8 +311,6 @@ PRODUCT_COPY_FILES += \
     vendor/lava/LXX525/proprietary/etc/wifi/nvram/wfnv_desc_data_soc70.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram/wfnv_desc_data_soc70.bin \
     vendor/lava/LXX525/proprietary/etc/wifi/nvram/wfnv_desc_map_soc70.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram/wfnv_desc_map_soc70.bin \
     vendor/lava/LXX525/proprietary/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
-    vendor/lava/LXX525/proprietary/etc/wifi/wpa_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant.conf \
-    vendor/lava/LXX525/proprietary/etc/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
     vendor/lava/LXX525/proprietary/firmware/BT_FW.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/BT_FW.cfg \
     vendor/lava/LXX525/proprietary/firmware/aw882xx_acf.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_acf.bin \
     vendor/lava/LXX525/proprietary/firmware/connfem.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/connfem.cfg \
@@ -2173,7 +2170,6 @@ PRODUCT_PACKAGES += \
     android.hardware.tetheroffload-V1-service.xml \
     android.hardware.usb-aidl-service.mediatek.xml \
     android.hardware.usb.gadget-aidl-service.mediatek.xml \
-    android.hardware.wifi-service.xml \
     android.hardware.wifi.hostapd.xml \
     android.hardware.wifi.supplicant.xml \
     arm.mali.platform-mediatek.xml \
@@ -2481,7 +2477,6 @@ PRODUCT_PACKAGES += \
     android.hardware.usb-aidl-service.mediatekv1.0 \
     android.hardware.usb.gadget-aidl-service.mediatekv1.0 \
     android.hardware.vibrator-service.mediatek \
-    android.hardware.wifi-service-lazy \
     arm.mali.platform-service.mediatek.mt6897 \
     camerahalserver \
     hostapd \
@@ -2503,7 +2498,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.pq_aidl-service \
     vendor.pri.hardware.biometrics.fingerprint-service-v3 \
     vtservice_aidl \
-    wpa_supplicant \
     hwclock \
     i2cdetect \
     i2cdump \
