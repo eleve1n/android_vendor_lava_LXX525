@@ -149,22 +149,16 @@ PRODUCT_COPY_FILES += \
     vendor/lava/LXX525/proprietary/etc/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
     vendor/lava/LXX525/proprietary/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
     vendor/lava/LXX525/proprietary/etc/init/aee_aedv64_v2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/aee_aedv64_v2.rc \
-    vendor/lava/LXX525/proprietary/etc/init/android.hardware.audio.service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio.service.mediatek.rc \
-    vendor/lava/LXX525/proprietary/etc/init/android.hardware.bluetooth-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth-service-mediatek.rc \
-    vendor/lava/LXX525/proprietary/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc \
     vendor/lava/LXX525/proprietary/etc/init/android.hardware.boot-service.mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.boot-service.mtk.rc \
     vendor/lava/LXX525/proprietary/etc/init/android.hardware.drm-service.clearkey.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm-service.clearkey.rc \
     vendor/lava/LXX525/proprietary/etc/init/android.hardware.gatekeeper-service.trustkernel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper-service.trustkernel.rc \
     vendor/lava/LXX525/proprietary/etc/init/android.hardware.gnss-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss-service.mediatek.rc \
     vendor/lava/LXX525/proprietary/etc/init/android.hardware.graphics.allocator-V2-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator-V2-service-mediatek.rc \
     vendor/lava/LXX525/proprietary/etc/init/android.hardware.graphics.composer@3.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@3.2-service.rc \
-    vendor/lava/LXX525/proprietary/etc/init/android.hardware.health-service.example.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health-service.example.rc \
-    vendor/lava/LXX525/proprietary/etc/init/android.hardware.ir-service.example.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.ir-service.example.rc \
     vendor/lava/LXX525/proprietary/etc/init/android.hardware.media.c2@1.2-mediatek-64b.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2@1.2-mediatek-64b.rc \
     vendor/lava/LXX525/proprietary/etc/init/android.hardware.neuralnetworks-shim-service-mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks-shim-service-mtk.rc \
     vendor/lava/LXX525/proprietary/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc \
     vendor/lava/LXX525/proprietary/etc/init/android.hardware.security.keymint@3.0-service.trustkernel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint@3.0-service.trustkernel.rc \
-    vendor/lava/LXX525/proprietary/etc/init/android.hardware.sensors-service-multihal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors-service-multihal.rc \
     vendor/lava/LXX525/proprietary/etc/init/android.hardware.tetheroffload-V1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.tetheroffload-V1-service.rc \
     vendor/lava/LXX525/proprietary/etc/init/android.hardware.usb-aidl-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb-aidl-service.mediatek.rc \
     vendor/lava/LXX525/proprietary/etc/init/android.hardware.usb.gadget-aidl-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb.gadget-aidl-service.mediatek.rc \
@@ -185,7 +179,6 @@ PRODUCT_COPY_FILES += \
     vendor/lava/LXX525/proprietary/etc/init/fuelgauged_nvram_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_nvram_init.rc \
     vendor/lava/LXX525/proprietary/etc/init/gbe.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/gbe.rc \
     vendor/lava/LXX525/proprietary/etc/init/gpuserv-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/gpuserv-default.rc \
-    vendor/lava/LXX525/proprietary/etc/init/hostapd.android.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hostapd.android.rc \
     vendor/lava/LXX525/proprietary/etc/init/hw/factory_init.connectivity.common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/factory_init.connectivity.common.rc \
     vendor/lava/LXX525/proprietary/etc/init/hw/factory_init.connectivity.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/factory_init.connectivity.rc \
     vendor/lava/LXX525/proprietary/etc/init/hw/factory_init.project.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/factory_init.project.rc \
@@ -259,9 +252,6 @@ PRODUCT_COPY_FILES += \
     vendor/lava/LXX525/proprietary/etc/init/wlan_assistant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlan_assistant.rc \
     vendor/lava/LXX525/proprietary/etc/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
     vendor/lava/LXX525/proprietary/etc/media_codecs_performance.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance.xml \
-    vendor/lava/LXX525/proprietary/etc/permissions/android.hardware.audio.low_latency.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.low_latency.prebuilt.xml \
-    vendor/lava/LXX525/proprietary/etc/permissions/android.hardware.bluetooth.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.bluetooth.prebuilt.xml \
-    vendor/lava/LXX525/proprietary/etc/permissions/android.hardware.bluetooth_le.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.bluetooth_le.prebuilt.xml \
     vendor/lava/LXX525/proprietary/etc/permissions/android.hardware.camera.concurrent.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.concurrent.prebuilt.xml \
     vendor/lava/LXX525/proprietary/etc/permissions/android.hardware.camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.xml \
     vendor/lava/LXX525/proprietary/etc/permissions/android.hardware.consumerir.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.consumerir.prebuilt.xml \
@@ -434,7 +424,6 @@ PRODUCT_COPY_FILES += \
     vendor/lava/LXX525/proprietary/system_ext/etc/hearing_aid_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/hearing_aid_audio_policy_configuration.xml \
     vendor/lava/LXX525/proprietary/system_ext/etc/init/aee_aed64.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/aee_aed64.rc \
     vendor/lava/LXX525/proprietary/system_ext/etc/init/aee_aed64_v2.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/aee_aed64_v2.rc \
-    vendor/lava/LXX525/proprietary/system_ext/etc/init/android.hardware.audio.parameter_parser.service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/android.hardware.audio.parameter_parser.service.rc \
     vendor/lava/LXX525/proprietary/system_ext/etc/init/android.hidl.allocator@1.0-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/android.hidl.allocator@1.0-service.rc \
     vendor/lava/LXX525/proprietary/system_ext/etc/init/batterywarning.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/batterywarning.rc \
     vendor/lava/LXX525/proprietary/system_ext/etc/init/bootlogoupdater.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/bootlogoupdater.rc \
@@ -511,114 +500,9 @@ PRODUCT_PACKAGES += \
     android.frameworks.sensorservice-V1-ndk \
     android.frameworks.sensorservice@1.0 \
     android.frameworks.stats-V1-ndk \
-    android.hardware.audio.common-V1-ndk \
-    android.hardware.audio.common-V2-ndk \
-    android.hardware.audio.common-util \
-    android.hardware.audio.common@5.0 \
-    android.hardware.audio.common@6.0-util \
-    android.hardware.audio.common@6.0 \
-    android.hardware.audio.common@7.0-enums \
-    android.hardware.audio.common@7.0-util \
-    android.hardware.audio.common@7.0 \
-    android.hardware.audio.common@7.1-enums \
-    android.hardware.audio.common@7.1-util \
-    android.hardware.audio.effect@6.0-util \
-    android.hardware.audio.effect@6.0 \
-    android.hardware.audio.effect@7.0-util \
-    android.hardware.audio.effect@7.0 \
-    android.hardware.audio@6.0 \
-    android.hardware.audio@7.0-util \
-    android.hardware.audio@7.0 \
-    android.hardware.audio@7.1-util \
-    android.hardware.audio@7.1 \
-    android.hardware.biometrics.common-V3-ndk \
-    android.hardware.biometrics.common.thread \
-    android.hardware.biometrics.common.util \
-    android.hardware.biometrics.fingerprint-V3-ndk \
-    android.hardware.bluetooth-V1-ndk \
-    android.hardware.bluetooth.audio-V3-ndk \
-    android.hardware.bluetooth.audio-impl-mediatek \
-    android.hardware.bluetooth.audio@2.0 \
-    android.hardware.bluetooth.audio@2.1 \
-    android.hardware.bluetooth@1.0 \
-    android.hardware.bluetooth@1.1 \
-    android.hardware.boot-V1-ndk \
-    android.hardware.boot@1.0 \
-    android.hardware.boot@1.1 \
-    android.hardware.camera.common-V1-ndk \
-    android.hardware.camera.common-V2-ndk \
-    android.hardware.camera.common@1.0 \
-    android.hardware.camera.device-V2-ndk \
-    android.hardware.camera.device@1.0 \
-    android.hardware.camera.device@3.2 \
-    android.hardware.camera.device@3.3 \
-    android.hardware.camera.device@3.4 \
-    android.hardware.camera.device@3.5 \
-    android.hardware.camera.device@3.6 \
-    android.hardware.camera.metadata-V2-ndk \
-    android.hardware.camera.provider-V2-ndk \
-    android.hardware.camera.provider@2.4 \
-    android.hardware.camera.provider@2.5 \
-    android.hardware.camera.provider@2.6 \
-    android.hardware.cas-V1-ndk \
-    android.hardware.drm-V1-ndk \
-    android.hardware.gatekeeper-V1-ndk \
-    android.hardware.gnss-V3-ndk \
-    android.hardware.graphics.allocator-V1-ndk \
-    android.hardware.graphics.composer3-V2-ndk \
-    android.hardware.health-V1-ndk \
-    android.hardware.health-V2-ndk \
-    android.hardware.ir-V1-ndk \
-    android.hardware.keymaster-V4-ndk \
-    android.hardware.light-V1-ndk \
-    android.hardware.light-V2-ndk \
-    android.hardware.light@2.0 \
-    android.hardware.media.bufferpool2-V1-ndk \
-    android.hardware.media.c2@1.0 \
-    android.hardware.media.c2@1.1 \
-    android.hardware.media.c2@1.2 \
-    android.hardware.power-V4-ndk \
-    android.hardware.power-service-mediatek \
-    android.hardware.power@1.0 \
-    android.hardware.power@1.1 \
-    android.hardware.power@1.2 \
-    android.hardware.radio-V2-ndk \
-    android.hardware.radio.config-V2-ndk \
-    android.hardware.radio.data-V2-ndk \
-    android.hardware.radio.ims-V1-ndk \
-    android.hardware.radio.messaging-V2-ndk \
-    android.hardware.radio.modem-V2-ndk \
-    android.hardware.radio.network-V2-ndk \
-    android.hardware.radio.sap-V1-ndk \
-    android.hardware.radio.sim-V2-ndk \
-    android.hardware.radio.voice-V2-ndk \
-    android.hardware.radio@1.0 \
-    android.hardware.radio@1.1 \
-    android.hardware.secure_element-V1-ndk \
-    android.hardware.security.keymint-V1-ndk \
-    android.hardware.security.keymint-V3-ndk \
-    android.hardware.security.rkp-V3-ndk \
-    android.hardware.security.secureclock-V1-ndk \
-    android.hardware.security.sharedsecret-V1-ndk \
-    android.hardware.sensors-V2-ndk \
-    android.hardware.sensors@1.0 \
-    android.hardware.sensors@2.0-ScopedWakelock \
-    android.hardware.sensors@2.0 \
-    android.hardware.sensors@2.1 \
-    android.hardware.soundtrigger3-V1-ndk \
-    android.hardware.tetheroffload-V1-ndk \
-    android.hardware.thermal-V1-ndk \
-    android.hardware.usb-V1-ndk \
-    android.hardware.usb.gadget-V1-ndk \
-    android.hardware.vibrator-V2-ndk \
-    android.hardware.wifi-V1-ndk \
-    android.hardware.wifi.hostapd-V1-ndk \
-    android.hardware.wifi.supplicant-V2-ndk \
     android.media.audio.common.types-V2-cpp \
     android.media.audio.common.types-V2-ndk \
     android.media.soundtrigger.types-V1-ndk \
-    android.system.keystore2-V1-ndk \
-    android.system.wifi.keystore@1.0 \
     arm.graphics-V4-ndk \
     arm.mali.platform-V2-ndk \
     audioclient-types-aidl-cpp \
@@ -630,36 +514,15 @@ PRODUCT_PACKAGES += \
     libMEOW_qt \
     libMEOW_trace \
     framework-permission-aidl-cpp \
-    android.hardware.audio.effect@6.0-impl \
-    android.hardware.audio.effect@7.0-impl \
-    android.hardware.audio@7.0-impl-mediatek \
-    android.hardware.audio@7.1-impl-mediatek \
-    android.hardware.bluetooth.audio@2.0-impl \
-    android.hardware.bluetooth.audio@2.1-impl \
-    android.hardware.bluetooth@1.1-impl-mediatek \
     android.hardware.camera.provider@2.6-impl-mediatek \
     android.hardware.gnss-impl-mediatek \
     android.hardware.graphics.allocator-V2-mediatek \
     android.hardware.graphics.mapper@4.0-impl-mediatek \
-    android.hardware.renderscript@1.0-impl \
-    android.hardware.sensors@2.X-subhal-mediatek \
     android.hardware.soundtrigger3-impl \
-    audio.bluetooth.default \
-    audio.primary.default \
-    audio.primary.mediatek \
-    audio.primary.mt6897 \
-    audio.r_submix.default \
-    audio.r_submix.mediatek \
-    audio.r_submix.mt6897 \
-    audio.usb.default \
-    audio_policy.stub \
     consumerir.common \
-    fingerprint.default \
     gatekeeper.trustkernel \
     gps.default \
-    gralloc.default \
     hwcomposer.mtk_common \
-    local_time.default \
     mapper.mediatek \
     vendor.mediatek.hardware.camera.atms@1.0-impl \
     vendor.mediatek.hardware.camera.bgservice@1.1-impl \
@@ -668,8 +531,6 @@ PRODUCT_PACKAGES += \
     vulkan.mali \
     mtkflp.default \
     mtkgeofence.default \
-    power.default \
-    sensors.dynamic_sensor_hal \
     sensors.mediatek.V2.0 \
     sensors.mt6897 \
     sound_trigger.primary.default \
@@ -685,7 +546,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mtkpower-aidl-impl \
     vendor.mediatek.hardware.nvram-impl \
     vendor.mediatek.hardware.videotelephony-impl \
-    vibrator.default \
     lib3a.ae.pipe \
     lib3a.ae \
     lib3a.ae.stat \
@@ -734,13 +594,11 @@ PRODUCT_PACKAGES += \
     libMtkSpeechEnh \
     libMtkSpeechEnh_swb \
     libNoFpsActor \
-    libOpenCL \
     libSQLiteModule_VER_ALL \
     libSingleCamBokehUtils \
     libSonyIMX519PdafWrapper \
     libTEECommon \
     libVkLayer_mtk_rt_sdk \
-    lib_android_keymaster_keymint_utils \
     lib_bsscore \
     lib_iir \
     lib_power_applist \
@@ -781,7 +639,6 @@ PRODUCT_PACKAGES += \
     libaiselector \
     libaispq \
     libalgo.aosp.log \
-    libalsautils \
     libapiwrapper \
     libapmonitor_vendor \
     libappgamepq \
@@ -799,7 +656,6 @@ PRODUCT_PACKAGES += \
     libarm_egl_properties_sysprop \
     libarm_gralloc_properties_sysprop \
     libarm_mali_config_sysprops \
-    libarmnn \
     libarmnn_ndk.mtk.vndk \
     libasn1c_core \
     libasn1c_mapi \
@@ -825,10 +681,6 @@ PRODUCT_PACKAGES += \
     libbessound_hd_mtk_vendor \
     libbinderdebug \
     libblisrc32_vendor \
-    libbluetooth_audio_session \
-    libbluetooth_audio_session_aidl \
-    libbluetooth_audio_session_aidl_mtk \
-    libbluetooth_audio_session_mediatek \
     libbluetooth_hw_test \
     libbluetooth_mtk \
     libbluetooth_mtk_pure \
@@ -978,14 +830,11 @@ PRODUCT_PACKAGES += \
     libcodec2_vpp_rs_plugin \
     libcomposer_ext \
     libconnfem \
-    libcppbor_external \
-    libcppcose_rkp \
     libcustom_nvram \
     libcvsd_mtk \
     libdecrypt \
     libdpframework \
     libdre \
-    libdrm \
     libdynamiclog \
     libeffecthal.base \
     libeffects \
@@ -1032,13 +881,9 @@ PRODUCT_PACKAGES += \
     libhevce_sb.ca7.android \
     libhfmanager \
     libhfmanagerwrapper \
-    libhidltransport \
-    libhidparser \
-    libhwbinder \
     libhwm \
     libicd_decoder \
     libifcutils_mtk \
-    libimage_io \
     libimagebuffer_wrapper \
     libimgstream-custom \
     libimgstream-drv \
@@ -1069,12 +914,6 @@ PRODUCT_PACKAGES += \
     libispinterpreter_mtkcam \
     libjpeg-alpha-oal_vendor \
     libjpeg-alpha_vendor \
-    libkeymaster_messages \
-    libkeymaster_portable \
-    libkeymint \
-    libkeymint_tool \
-    libkeystore-engine-wifi-hidl \
-    libkeystore-wifi-hidl \
     libkmsetkey \
     libkphhelper \
     libkphproxy \
@@ -1084,7 +923,6 @@ PRODUCT_PACKAGES += \
     libmdla_standalone \
     libmdla_ut \
     libmediautils_vendor \
-    libmemunreachable \
     libmfllcore \
     libmgr3a.adapt \
     libminiui \
@@ -1329,7 +1167,6 @@ PRODUCT_PACKAGES += \
     libnxp_extamp_intf \
     libnxpsmartpaparser \
     liboemcrypto \
-    libpcap \
     libpda_usdriver \
     libperfctl_vendor \
     libpixelflinger \
@@ -1352,19 +1189,14 @@ PRODUCT_PACKAGES += \
     libprizeem_sensor_jni \
     libprotobuf-cpp-full-21.7 \
     libprotobuf-cpp-lite-21.7 \
-    libpuresoftkeymasterdevice \
     libratconfig \
     librcs_interface \
     librcs_volte_core \
-    libreference-ril \
     libremosaic_wrapper \
     libremosaiclib \
     librgbwlightsensor \
-    libril \
     librilfusion \
-    librilutils \
     librt_extamp_intf \
-    libruy \
     libscltm \
     libsensorndkbridge \
     libsfplugin_ccodec_utils \
@@ -1373,20 +1205,16 @@ PRODUCT_PACKAGES += \
     libsilkybrightnesscore \
     libsimlock \
     libsimmelock \
-    libsoft_attestation_cert \
     libspeech_enh_lib \
     libspeechparser_vendor \
-    libstagefright_aidl_bufferpool2 \
     libstagefright_bufferpool@2.0.1 \
     libstorage_otp \
     libsysenv \
     libteec \
     libtensorflowlite \
-    libtextclassifier_hash \
     libtflite_mtk \
     libthha \
     libtiktapvibrator \
-    libtinycompress \
     libtranslator_mapi_v3.0 \
     libtranslator_mdmi_v2.8.2 \
     libtranslator_utils \
@@ -1542,11 +1370,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.rcs-V1-ndk \
     vendor.mediatek.hardware.rcs@2.0 \
     vendor.mediatek.hardware.videotelephony-V1-ndk \
-    android.hardware.radio.config@1.1 \
-    android.hardware.radio.config@1.2 \
-    android.hardware.radio.config@1.3 \
-    android.hardware.radio@1.5 \
-    android.hardware.radio@1.6 \
     libBSTBeautyAPK \
     libBSTFaceDetction \
     libBSTSingleAIDoc \
@@ -1671,7 +1494,6 @@ PRODUCT_PACKAGES += \
     libsf_perf \
     libshowlogo \
     libsignal \
-    libsink \
     libsmartpower_jni \
     libsource \
     libstagefright_mbrain \
@@ -1733,26 +1555,8 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.touchll@1.0 \
     vendor.mediatek.hardware.videotelephony@1.0 \
     CommandService.xml \
-    android.hardware.bluetooth-service-mediatek.xml \
-    android.hardware.boot-service.mtk.xml \
-    android.hardware.cas-service.xml \
-    android.hardware.drm-service.clearkey.xml \
-    android.hardware.gatekeeper-service.trustkernel.xml \
-    android.hardware.health-service.example.xml \
-    android.hardware.ir-service.example.xml \
-    android.hardware.neuralnetworks-shim-service-mtk.xml \
-    android.hardware.security.keymint@3.0-service.trustkernel.xml \
-    android.hardware.security.secureclock-service.trustkernel.xml \
-    android.hardware.security.sharedsecret-service.trustkernel.xml \
-    android.hardware.sensors-multihal.xml \
-    android.hardware.tetheroffload-V1-service.xml \
-    android.hardware.usb-aidl-service.mediatek.xml \
-    android.hardware.usb.gadget-aidl-service.mediatek.xml \
-    android.hardware.wifi.hostapd.xml \
-    android.hardware.wifi.supplicant.xml \
     arm.mali.platform-mediatek.xml \
     bluetooth_audio.xml \
-    gnss-default.xml \
     gnss-mtk.xml \
     lights-mtk-default.xml \
     manifest_allocator.xml \
@@ -1785,7 +1589,6 @@ PRODUCT_PACKAGES += \
     ated \
     audiocmdservice_atci \
     autobt \
-    awk \
     base64 \
     basename \
     bip_ap \
@@ -1840,7 +1643,6 @@ PRODUCT_PACKAGES += \
     df \
     diff \
     dirname \
-    dmabuf_dump \
     dmc_core \
     dmesg \
     doeapp-memtester \
@@ -1883,20 +1685,13 @@ PRODUCT_PACKAGES += \
     gunzip \
     gzip \
     head \
-    hostapd_cli \
     hostname \
-    android.hardware.audio.service.mediatek \
-    android.hardware.bluetooth-service-mediatek \
-    android.hardware.bluetooth@1.1-service-mediatek \
     android.hardware.boot-service.mtk \
-    android.hardware.cas-service.example \
     android.hardware.drm-service.clearkey \
     android.hardware.gatekeeper-service.trustkernel \
     android.hardware.gnss-service.mediatek \
     android.hardware.graphics.allocator-V2-service-mediatek.mt6897 \
     android.hardware.graphics.composer@3.2-service \
-    android.hardware.health-service.example \
-    android.hardware.ir-service.example \
     android.hardware.lights-service.mediatek \
     android.hardware.media.c2@1.2-mediatek-64b \
     android.hardware.memtrack-service.mediatek \
@@ -1904,14 +1699,12 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks-shim-service-mtk-lazy \
     android.hardware.secure_element@1.2-service-mediatek \
     android.hardware.security.keymint@3.0-service.trustkernel \
-    android.hardware.sensors-service.multihal \
     android.hardware.thermal-service.mediatek \
     android.hardware.usb-aidl-service.mediatekv1.0 \
     android.hardware.usb.gadget-aidl-service.mediatekv1.0 \
     android.hardware.vibrator-service.mediatek \
     arm.mali.platform-service.mediatek.mt6897 \
     camerahalserver \
-    hostapd \
     mtkfusionrild \
     tetheroffloadservice \
     vendor.mediatek.hardware.aee@1.1-service \
@@ -1935,8 +1728,6 @@ PRODUCT_PACKAGES += \
     iconv \
     id \
     ifconfig \
-    init.insmod \
-    init.pstore_blk \
     inotifyd \
     insmod \
     install \
@@ -1953,7 +1744,6 @@ PRODUCT_PACKAGES += \
     logger \
     loghidlvendorservice \
     logname \
-    logwrapper \
     losetup \
     ls \
     lsattr \
@@ -2027,7 +1817,6 @@ PRODUCT_PACKAGES += \
     setenforce \
     setprop \
     setsid \
-    sh \
     sha1sum \
     sha224sum \
     sha256sum \
@@ -2060,11 +1849,9 @@ PRODUCT_PACKAGES += \
     time \
     timeout \
     tlcrpmb_gp \
-    toolbox \
     top \
     touch \
     touch_boost \
-    toybox_vendor \
     tr \
     true \
     truncate \
