@@ -18534,22 +18534,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-	name: "factory",
-	owner: "lava",
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/bin/factory"],
-			shared_libs: ["libcutils", "libnvram", "libfile_op", "libminiui", "libjpeg", "libbase", "libfft_vendor", "libaudio_param_parser-vnd", "libxml2", "libselinux", "libalsautils", "libhardware_legacy", "libhardware", "libaudioutils", "libtinyalsa", "libtinycompress", "libaudiotoolkit_vendor", "libmedia_helper", "libladder", "vendor.mediatek.hardware.bluetooth.audio@2.1", "libhfmanagerwrapper", "liblog", "libutils", "android.system.suspend@1.0", "libhidlbase", "libhidltransport", "libhwbinder", "android.hardware.health-V1-ndk", "android.hardware.light-V1-ndk", "libbinder_ndk", "libbinder", "android.hardware.light@2.0", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	strip: {
-		none: true,
-	},
-	prefer: true,
-}
-
-cc_prebuilt_binary {
 	name: "fallocate",
 	owner: "lava",
 	target: {
@@ -19441,23 +19425,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-	name: "vendor.mediatek.hardware.mtkpower-service.mediatek",
-	owner: "lava",
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/bin/hw/vendor.mediatek.hardware.mtkpower-service.mediatek"],
-			shared_libs: ["liblog", "libutils", "libcutils", "libhardware", "libhidlbase", "libhardware_legacy", "vendor.mediatek.hardware.mtkpower-V1-ndk", "vendor.mediatek.hardware.mtkpower-aidl-impl", "android.hardware.power-service-mediatek", "libbase", "libbinder_ndk", "android.hardware.power-V4-ndk", "libpower_timer", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	strip: {
-		none: true,
-	},
-	prefer: true,
-	relative_install_path: "hw",
-}
-
-cc_prebuilt_binary {
 	name: "vendor.mediatek.hardware.mtkpower_applist-service.mediatek",
 	owner: "lava",
 	target: {
@@ -20094,22 +20061,6 @@ cc_prebuilt_binary {
 		android_arm64: {
 			srcs: ["proprietary/bin/md_monitor_ctrl"],
 			shared_libs: ["liblog", "libutils", "libcutils", "vendor.mediatek.hardware.mdmonitor@1.0", "libhidlbase", "libbinder_ndk", "vendor.mediatek.hardware.mdmonitor-V1-ndk", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	strip: {
-		none: true,
-	},
-	prefer: true,
-}
-
-cc_prebuilt_binary {
-	name: "meta_tst",
-	owner: "lava",
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/bin/meta_tst"],
-			shared_libs: ["libpl", "libkphproxy", "libkphhelper", "libkeymint_tool", "libhardware_legacy", "libcutils", "libbase", "liblog", "libutils", "libccci_util", "libhfmanagerwrapper", "libnetutils", "libwifical", "libwifinvram", "libselinux", "libnvram", "libfile_op", "libhardware", "libbinder", "libhidlbase", "libhidltransport", "vendor.mediatek.hardware.lbs@1.0", "vendor.mediatek.hardware.nvram-V1-ndk", "libbinder_ndk", "libkmsetkey", "libsysenv", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
