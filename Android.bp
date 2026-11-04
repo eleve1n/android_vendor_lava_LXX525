@@ -20180,6 +20180,8 @@ cc_prebuilt_binary {
 		none: true,
 	},
 	prefer: true,
+	soc_specific: true,
+	vendor: true,
 }
 
 cc_prebuilt_binary {
