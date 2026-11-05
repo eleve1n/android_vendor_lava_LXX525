@@ -1658,7 +1658,6 @@ PRODUCT_PACKAGES += \
     env \
     expand \
     expr \
-    factory \
     fallocate \
     false \
     fgrep \
@@ -1713,7 +1712,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.gpuserv-service \
     vendor.mediatek.hardware.mmagent-service \
     vendor.mediatek.hardware.mmlpq@V1-service \
-    vendor.mediatek.hardware.mtkpower-service.mediatek \
     vendor.mediatek.hardware.mtkpower_applist-service.mediatek \
     vendor.mediatek.hardware.nvram-service \
     vendor.mediatek.hardware.nwk_opt@1.0-service \
@@ -1754,7 +1752,6 @@ PRODUCT_PACKAGES += \
     md5sum \
     md_monitor \
     md_monitor_ctrl \
-    meta_tst \
     microcom \
     mkdir \
     mkfifo \
@@ -1891,3 +1888,4 @@ PRODUCT_PACKAGES += \
     xxd \
     yes \
     zcat
+PRODUCT_COPY_FILES += vendor/lava/LXX525/proprietary/bin/mnld:$(TARGET_COPY_OUT_VENDOR)/bin/mnld
